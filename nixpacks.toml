@@ -1,0 +1,8 @@
+# Nixpacks for deployment.
+# See https://nixpacks.dev/docs/nixpacks.toml for more information.
+
+[phases.build]
+cmds = ["poetry run nikola build"]
+
+[phases.start]
+cmds = ["cp -r /nixpacks/output/* /usr/share/nginx/html/"]
