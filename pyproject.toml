@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "et-apres"
+version = "0.1.0"
+description = "Et Apres website"
+authors = ["Pierre-Yves Gillier <github@pygillier.me>"]
+license = "CC BY-NC-SA 4.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nikola = "^8.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
